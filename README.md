@@ -1,2 +1,2 @@
 # CTF-Writeup
-Writeup SVATTT
+Writeup CTF
