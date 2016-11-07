@@ -20,7 +20,7 @@ Lướt vài dòng và mình đã thấy điều đáng chú ý: **User encapsul
 Thử search với Bing hoặc Google ta tìm được đây là traffic kiểu **btle**, chúng ta nên tùy chỉnh lại cho Wireshark hiển thị đúng định dạng để có thể
 dễ dàng phân tích.
 
-[Imgur](http://i.imgur.com/vpappAo.png)
+![Imgur](http://i.imgur.com/vpappAo.png)
 
 Lướt vài dòng và ta thấy 1 vài packet có chứa "SVATT"
 
@@ -28,6 +28,7 @@ Kết hợp với hint đề bên trên về giao thức Eddystone => định d�
 Tham khảo wiki của google về giao thức trên ta => byte đầu tiên của gói data broadcast sẽ được bắt đầu với 0x10
 Lần lượt decode (0x10-0xbb-0x02-...) ra ta được kết quả là "http://9t.com/AzGiHoOJ"
 Một link rút gọn, thử curl đến link này xem nào: 
+
 ![alt](https://s2.anh.im/2016/11/07/rsz_screenshot_-_07112016_-_100607fc4bc.png)
 
 => Link cần tìm đã lộ mặt: https://2016.svattt.org/7541e0246119c829b7dc1987b2390dd0
